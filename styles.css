@@ -46,6 +46,15 @@ a:hover{
     background-color: blue;
 }
 
+.greeting{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 3em;
+    font-style: oblique;
+    padding: 5px;
+    margin: 10px;
+}
+
 .hero{
     display: flex;
     flex-wrap: wrap;
@@ -368,6 +377,10 @@ footer a{
 
     #check:checked ~ .checkbtn{
         color: whitesmoke;
+    }
+
+    .greeting{
+        font-size: 2.5em;
     }
     
     .info{
