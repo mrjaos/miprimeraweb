@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi primera web</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+        <header id="encabezado">
+            <img src="img/logo.png" alt="logo">
+            <nav>
+                <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#bio">Acerca de mi</a></li>
+                    <li><a href="#seccion-2">Trabajos</a></li>
+                    <li><a href="#serv">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="seccion-principal">
+            <section id="seccion-1">
+                <div class="acerca-de">
+                    <div class="hero">
+                        <p>Te doy la bienvenida a mi Cafe</p>
+                        <img src="img/img1.jpg" alt="hero">
+                    </div>
+
+                    <div class="info" id="bio">
+                        <div class="acerca-imagen">
+                            <img src="img/mujer.jpg" alt="mujer">
+                        </div>
+                        <div class="info-2">
+                            <h2>Acerca de mi</h2>
+                            <p class="parrafo">Me llamo Ana, naci en Colomibia y vivo en Bogota. Me gusta leer acompañandolo de un  cafe o un buen vino. De ahi nacio la idea de este cafe paraa compartir con la gente que le gusta lo mismo. </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="seccion-2">
+                <h2>Emprendamos este viaje</h2>
+                <div class="sec-2-img">
+                    <img src="img/dunas.jpg" alt="">
+                </div>
+
+            </section>
+            
+            <h2 class="servicios">Servicios</h2>
+            <section class="contain" id="serv">
+                
+                <div class="carta">
+                    <img src="img/img4.jpg">
+                    <h4>Cafe</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dolore neque ea totam vero odio earum, ullam quisquam consectetur veniam est quas eum adipisci animi voluptas, eligendi ab autem necessitatibus.</p>
+                    <a href="#">Leer mas</a>
+                </div>
+                <div class="carta">
+                    <img src="img/img6.jpg">
+                    <h4>Vino</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae suscipit eligendi eius illum perspiciatis incidunt voluptas voluptates, quidem molestiae unde accusamus obcaecati reprehenderit quia corporis sunt exercitationem expedita, laborum natus.</p>
+                    <a href="#">Leer mas</a>
+                </div>
+                <div class="carta">
+                    <img src="img/img5.jpg">
+                    <h4>Comida</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae suscipit eligendi eius illum perspiciatis incidunt voluptas voluptates, quidem molestiae unde accusamus obcaecati reprehenderit quia corporis sunt exercitationem expedita, laborum natus.</p>
+                    <a href="#">Leer mas</a>
+                </div>
+            </section>
+
+            <section class="formulario">
+                <h1>Contacto</h1>
+                <p>¡Esperamos tu consulta!</p>
+
+                <form action="" method="get" class="form" id="form">
+                    <div class="form-row">
+                        <label for="nombre">Nombre</label>
+                        <input name="nombre" id="nombre" type="text">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" type="email" placeholder="aaa@mail.com">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje"></textarea>
+                    </div>
+
+                    <div class="form-row">
+                        <button type="submit" id="submit">Enviar</button>
+                    </div>
+
+
+                </form>
+            </section>
+            
+        </main>
+        <footer id="contacto">
+            <ul>
+                <li><img src="img/instagram.png" alt="logo-instagram"><a href="#">Instagram</a></li>
+                <li><img src="img/facebook.png" alt="logo-facebook"><a href="#">Facebook</a></li>
+            </ul>
+        </footer>
+    
+</body>
+</html>
